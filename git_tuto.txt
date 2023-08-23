@@ -5,3 +5,15 @@ git status		  // verifica o status
 git add "nome_do_arquivo" // adiciona um arquivo
 git add .                 //adiciona todos arquivos
 git commit -m "commit inicial"
+git push
+git remote add origin enderço_do_repositório(ex: https://github.com/rafasapiens/C)
+git push
+git push --set-upstream origin master
+
+
+para fazer novos commits repete o processo:
+git status
+git add .
+git commit -m "mensagem sobre o que está sendo adicionado/alterado"
+git push
+

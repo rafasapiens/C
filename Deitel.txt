@@ -1,0 +1,7 @@
+Aqui neste diretório estão Exercícios e testes seguindo o livro C Como programar Paul Deitel
+
+/* digite no shell cc programa1.c -o programa1 para compilar
+  *  * digite ./programa1 para executar o programa *   */
+
+
+  Parei na paguna 30 do livro

@@ -1,0 +1,7 @@
+git --help		  // lista a ajuda do git
+git status		  //verifica se já existe git
+git init		  //inicia o versionamento no diretório
+git status		  // verifica o status
+git add "nome_do_arquivo" // adiciona um arquivo
+git add .                 //adiciona todos arquivos
+git commit -m "commit inicial"

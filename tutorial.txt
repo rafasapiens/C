@@ -1,0 +1,20 @@
+Extraído do site do TCPdump http://yuba.stanford.edu/~casado/pcap/section1.html
+
+No Termux, você pode compilar um programa C com o GCC (GNU Compiler Collection). Baixe o GCC usando o comando apt-get.
+
+1. Abra o Termux e digite:
+```
+apt-get update
+```
+2. Em seguida, digite:
+```
+apt-get install gcc
+```
+Isso instalará a última versão do compilador GCC no seu dispositivo. Isso pode levar alguns minutos para ser concluído.
+3. Uma vez que a instalação estiver concluída, crie um arquivo de código fonte C chamado ex01.c e abra-o no editor de texto que você tem instalado no Termux (nano, vim, etc.).
+4. Digite o código C necessário para seu programa e salve-o
+5. Em seguida, vá até a pasta onde ex01.c está salvo usando os comandos cd e ls do Termux
+6. Para compilar o programa, basta digitar:
+```  gcc ex01.c -o ex01 ```
+Isso criará um arquivo executável chamado ex01 na pasta atual onde o ex01.c estava armazenado
+7. Para executar esse programa executável, basta digitar ./ex01
